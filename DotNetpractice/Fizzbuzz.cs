@@ -12,23 +12,18 @@ namespace Practice
             }
         }
 
-        //static void fizzBuzzCheck(int number)
-        //{
-        //    string output = null;
-        //    if (number % 3 == 0)
-        //    {
-        //        output += "Fizz";
-        //    }
-        //    if (number % 5 == 0)
-        //    {
-        //        output += "Buzz";
-        //    }
-        //    Console.WriteLine(output ?? number.ToString());
-        //}
-
         static void fizzBuzzCheck(int number)
         {
-
+            string output = null;
+            if (number % 3 == 0)
+            {
+                output += "Fizz";
+            }
+            if (number % 5 == 0)
+            {
+                output += "Buzz";
+            }
+            Console.WriteLine(output ?? number.ToString());
         }
     }
 }
